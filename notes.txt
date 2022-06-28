@@ -1,0 +1,10 @@
+We run:
+    heroku login
+    npm init -y
+    npm install @slack/bolt
+Next, we make the code we want 
+    heroku create
+
+    grab app name from: https://whispering-waters-80053.herokuapp.com/ | https://git.heroku.com/whispering-waters-80053.git
+    heroku config:set -a whispering-waters-80053 SLACK_BOT_TOKEN=xoxb-3685983143440-3726268455926-FTWjrgXCAGyND9m043NzI5nw
+    heroku config:set -a whispering-waters-80053 SLACK_SIGNING_SECRET=8bc833cfe1329893bc9b1e4d6ddf4fb8
